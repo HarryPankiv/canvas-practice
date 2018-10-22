@@ -1,0 +1,50 @@
+input {
+    border: none;
+    border-bottom: 1px solid #3d3d3d;
+    outline: none;
+    margin: 5px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picker {
+    position: absolute;
+}
+
+p {
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #3d3d3d;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #3d3d3d;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.main { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    margin: 80px;
+}
